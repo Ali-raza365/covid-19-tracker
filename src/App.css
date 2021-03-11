@@ -1,0 +1,39 @@
+.imgContainer {
+  display: flex;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+.imgContainer img {
+  width: 600px;
+}
+.select {
+  display: flex;
+  justify-content: center;
+}
+
+.loading {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  align-items: center;
+  height: 100vh;
+}
+.infacted {
+  color: rgba(17, 105, 142, 1);
+}
+.recovered {
+  color: rgb(38, 192, 38);
+}
+.deaths {
+  color: rgb(253, 52, 52);
+}
+.barChart {
+  display: flex;
+  justify-content: center;
+  max-width: 70%;
+  max-height: 600px;
+  margin: 10px auto;
+}
