@@ -1,12 +1,12 @@
 .imgContainer {
   display: flex;
-  top: 30%;
+  top: 200px;
   left: 50%;
   transform: translate(-50%, -50%);
   position: absolute;
 }
 .imgContainer img {
-  width: 600px;
+  width: 100%;
 }
 .select {
   display: flex;
